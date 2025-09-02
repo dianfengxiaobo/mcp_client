@@ -28,10 +28,15 @@ from typing import Optional, Dict, Any, List
 from contextlib import AsyncExitStack
 
 # MCP相关导入
-from mcp import ClientSession, StdioServerParameters
-from mcp.client.stdio import stdio_client
-from mcp.client.http import HttpClientTransport
-from mcp.client.sse import SseClientTransport
+# MCP 导入（统一从 mcp.cli.client 来）
+from mcp.cli.client import (
+    ClientSession,
+    StdioServerParameters,
+    stdio_client,
+    HttpClientTransport,
+    SseClientTransport,
+)
+
 
 # OpenAI SDK导入
 import openai
