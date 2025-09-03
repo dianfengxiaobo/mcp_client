@@ -1,6 +1,7 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
+*.pyc
 build/
 dist/
 wheels/
@@ -8,3 +9,17 @@ wheels/
 
 # Virtual environments
 .venv
+
+# IDE-related files
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Dependency lock files
+uv.lock
+
+# Logs and temporary files
+*.log
+*.swp
