@@ -1,0 +1,11 @@
+__pycache__/
+*.py[oc]
+*.pyc
+build/
+dist/
+wheels/
+*.egg-info
+.venv/
+.idea/
+.vscode/
+.env
